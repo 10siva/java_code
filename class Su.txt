@@ -1,0 +1,6 @@
+class Su
+{
+public static void main(string arg[])
+{
+System out.println("HELLO WORLD");
+}

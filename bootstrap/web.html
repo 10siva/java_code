@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+</head>
+
+<style>
+        .top{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           height: 300px;
+        }
+        h1{
+    font-size:60px;
+        }
+        p{
+            font-size: 20px;
+        }
+
+        nav{
+            background-color: black;
+        }
+        #size{
+            font-size: 15px;
+            
+        }
+
+        .grid{
+display: grid;
+grid-template-columns: 1fr 1fr;
+row-gap: 100px;
+column-gap: 400px;
+margin-left: 40px;
+margin-top: 40px;
+        }
+
+
+         .color{
+display: flex;
+
+border-radius: 5px;
+        }
+.color1{
+    list-style-type: none;
+}
+.color3{
+    list-style-type: none;  
+}
+
+        .color1:hover{
+            
+            border-radius: 5px;
+            background-color: darkgray;
+        }
+  .color3:hover{
+    background-color: darkgray;
+    border-radius: 5px;
+  }      
+</style>
+<body>
+    
+
+    <div class="top">
+        <div class="text">
+            <h1>
+                My First Bootstrap Page
+            </h1>
+            <p>Resize this responsive page to see the effect!</p>
+
+        </div>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+         
+          </div>
+        </div>
+      </nav>
+
+<div class="grid">
+ <div class="grid-iteam">
+<h4>ABOUT ME</h4>
+<p id="size"> photo of me..!</p>
+<img src="OIP (1).png">
+<p id="size"> Some text about me in culpa qui officia deserunt mollit anim..</p>
+
+
+ </div>
+ <div class="grid-iteam">
+    <h4>TITLE HEADING</h4>
+<p id="size"> Title description, Dec 7, 2017</p>
+<img src="Vidamuyarchi-2.jpg" width="500px" height="400px">
+<p id="size">Some text..
+
+    Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+    
+     </p>
+
+
+ </div>
+ <div class="grid-iteam">
+   <h4> SOMETHING LINK </h4>
+   <p id="size">Lorem ipsum dolor sit ame.</p>
+   <ul>
+    <li class="color" style="background-color: cornflowerblue;"  href="#">link 1</li>
+    <li  class="color1" href="#">link 2</li> 
+    <li  class="color3" href="#">link 3</li> 
+   </ul>
+
+ </div>
+ <div class="grid-iteam">
+   <h4> TITLE HEADING</h4>
+   <p id="size"> Title description, sep 7, 2024</p>
+<img src="images-2024-03-14T112755.392.jpeg" width="500px" height="400px">
+<p id="size">Some text..
+
+    Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+    
+     </p>
+
+ </div>
+</div>
+</body>
+</html>
